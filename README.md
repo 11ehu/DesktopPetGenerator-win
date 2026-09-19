@@ -1,5 +1,7 @@
 # Desktop Pet Generator for Windows
 
+A lightweight AI-powered desktop pet generator for Windows. Turn photos into interactive desktop companions with automatic background removal, local ONNX inference, transparent rendering, and customizable animations.
+
 这是 Desktop Pet Generator V1 的 Windows 发布仓库。
 
 完整的可运行程序请从 GitHub 的 **Releases** 页面下载 `DesktopPetGenerator-v1-win-x64.zip`，解压后运行 `Setup.exe`（首次配置）或 `PetGenerator.exe`。
