@@ -1,0 +1,13 @@
+# 发布包与模型通过 GitHub Release 附件提供，避免普通 Git 提交超过 GitHub 单文件限制。
+*.zip
+DesktopPetGenerator-v1-win-x64/bin/
+DesktopPetGenerator-v1-win-x64/models/
+DesktopPetGenerator-v1-win-x64/test_photo/
+DesktopPetGenerator-v1-win-x64/PetGenerator.exe
+DesktopPetGenerator-v1-win-x64/Setup.exe
+
+# 仅保留发布说明、校验清单与第三方许可证在 Git 历史中。
+!DesktopPetGenerator-v1-win-x64/README.md
+!DesktopPetGenerator-v1-win-x64/RELEASE_NOTES.md
+!DesktopPetGenerator-v1-win-x64/release-manifest.sha256
+!DesktopPetGenerator-v1-win-x64/LICENSE-*.txt
